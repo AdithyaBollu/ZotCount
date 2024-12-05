@@ -1,0 +1,90 @@
+.container {
+    background-color: rgb(34, 33, 33);
+    color: white;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 65, 255);
+    color: white;
+}
+
+.lines {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+
+}
+
+.line {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    width: 100%;
+    margin: 2em;
+    padding: 2em;
+    /* border-bottom: 2px solid white; */
+}
+
+.buses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.bus {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 75%;
+    text-align: center;
+}
+
+.bus > p {
+    flex: 1;
+    text-align: center;
+}
+
+.lineName {
+    font-size: 2em;
+}
+.indicator > span {
+    background-color: green;
+    width: 50%;
+    border-radius: 100%;
+    color: rgba(0, 0, 255, 0);
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
+}
+
+#A > .buses > .bus {
+    border-bottom: 2px solid yellow;
+}
+
+#N > .buses > .bus {
+    border-bottom: 2px solid orangered;
+}
+
+#M > .buses > .bus {
+    border-bottom: 2px solid green;
+}
+
+#E > .buses > .bus {
+    border-bottom: 2px solid purple;
+}
+
+#H > .buses > .bus {
+    border-bottom: 2px solid cyan;
+}
